@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  myproject:
+    image: esamino
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: 100M
+        reservations:
+          memory: 50M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
