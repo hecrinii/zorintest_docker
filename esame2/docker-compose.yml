@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  nodejs:
+    container_name: node
+    image: node:18-alpine
+    environment:
+    - NODE_ENV_PORT=3000

@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   myproject:
-    image: esamino
+    image: hasna123/esamino:latest
     deploy:
       replicas: 1
       resources:
