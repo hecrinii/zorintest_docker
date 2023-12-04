@@ -11,6 +11,6 @@ services:
         reservations:
           memory: 50M
     logging:
-      driver: "json-file"
+      #driver: "json-file"
       options:
         max-size: "50m"
